@@ -1,0 +1,87 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Header */
+h2 {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  margin: 0;
+}
+
+/* Navbar */
+nav {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0056b3;
+}
+
+/* Content */
+h3 {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Text */
+.card h4 {
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+.home {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.home h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.home p {
+  color: #666;
+  margin-top: 10px;
+}
